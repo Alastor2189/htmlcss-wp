@@ -91,11 +91,14 @@ ul{
 }
 .center {
     width: 58%;
-    margin: 0 12px;
+    margin: 0 1%;
     position: relative;
 }
 .clm img{
     object-fit: none;
+    width: 100%;
+    object-position: 50% 50%;
+    height: 110%;
     width: 100%;
 }
 .image-clm.with-layover {
@@ -104,22 +107,7 @@ ul{
     height: 200px;
     overflow: hidden;    
   }
-.center img{
-  object-position: 50% 50%;
-  height: 110%;
-  width: 100%;
-}
-.left img{
-    object-position: 50% 50%;
-    height: 110%;
-    width: 100%;
-  }
 
-.right img{
-    object-position: 50% 50%;
-    height: 110%;
-    width: 100%;
-  }
 
 footer{
     height: 50px;
